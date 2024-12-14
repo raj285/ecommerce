@@ -2,8 +2,10 @@
   "name": "ecommerce",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node sever.js"
+    "start": "node sever.js",
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "Raj",
@@ -11,6 +13,8 @@
   "description": "",
   "dependencies": {
     "colors": "^1.4.0",
-    "express": "^4.21.2"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
   }
 }
